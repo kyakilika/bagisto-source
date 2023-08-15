@@ -28,7 +28,7 @@ done
 
 # setting up bagisto
 echo "Now, setting up Bagisto..."
-docker exec ${apache_container_id} git clone https://github.com/bagisto/bagisto
+docker exec ${apache_container_id} git clone https://github.com/kyakilika/bagisto1
 
 # setting bagisto stable version
 echo "Now, setting up Bagisto stable version..."
